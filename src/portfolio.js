@@ -9,7 +9,7 @@ const greeting = {
   username: "Akshay Iyyadurai Balasundaram",
   title: "Hello, I'm Akshay",
   subTitle: emoji(
-    "A tennis player turned software developer 🚀 who is part of a journey to help the world run better and in improving people's lives.. ",
+    "A tennis player turned software developer 🚀 who is on a journey to help the world run better and in improving people's lives.. ",
   ),
 };
 
@@ -101,7 +101,7 @@ const educationInfo = {
       duration: "September 2018 - April 2020",
       desc: "",
       descBullets: [
-        'Attained the highest grade 1.0 in my Master Thesis and in the subject “Real- Time Programming"',
+        'Attained the highest grade 1.0 in my Master Thesis and in the subject “Real-Time Programming"',
       ],
     },
     {
@@ -148,7 +148,7 @@ const workExperiences = {
       companylogo: require("./assets/images/SAP-logo-square.png"),
       date: "June 2020 – Present",
       desc:
-        "working on a project to automate all the CI/CD pipeline creation and also a project maintainer for the open-source project CLA Assistant.",
+        "working on a project to automate all the CI/CD pipeline creation and also a project maintainer for the open-source project CLA Assistant",
       // descBullets: [
       //   "I developed a new light weight OS bot solution for automating the Contributor License Agreement (CLA) process using GitHub Action - https://github.com/cla-assistant/github-action",
       // ],
