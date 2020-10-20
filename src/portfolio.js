@@ -9,7 +9,7 @@ const greeting = {
   username: "Akshay Iyyadurai Balasundaram",
   title: "Hello, I'm Akshay",
   subTitle: emoji(
-    "A  Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",
+    "A tennis player turned software developer 🚀 who is part of a journey to help the world run better and in improving people's lives.. ",
   ),
 };
 
@@ -27,15 +27,18 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Skills",
+  subTitle:
+    "Full Stack Developer who is hands-on with these technologies and always wants to learn and explore other tech stacks",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+      "⚡ designed and developed a open-source bot using GitHub Action platform to automate the contributor's signature process (CLA)",
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+      "⚡ working on a project to fully automate the CI/CD pipeline creation",
+    ),
+    emoji(
+      "⚡ expert knowledge in git/GitHub",
     ),
   ],
 
@@ -44,32 +47,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5",
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular",
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt",
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass",
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node",
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js",
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react",
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node",
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift",
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github",
     },
     {
       skillName: "npm",
@@ -104,26 +95,24 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "SRH Hochschule University",
+      logo: require("./assets/images/SRH_logo.png"),
+      subHeader: "Master of Engineering in Information Technology",
+      duration: "September 2018 - April 2020",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        'Attained the highest grade 1.0 in my Master Thesis and in the subject “Real- Time Programming"',
       ],
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      schoolName: "SSN College of Engineering",
+      logo: require("./assets/images/ssn_logo2.png"),
+      subHeader: "Bachelor of Engineering in Mechanical",
       duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ],
+      // desc: "",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // ],
     },
   ],
 };
@@ -157,29 +146,28 @@ const workExperiences = {
       role: "Software Engineer",
       company: "SAP",
       companylogo: require("./assets/images/SAP-logo-square.png"),
-      date: "June 2018 – Present",
+      date: "June 2020 – Present",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ],
+        "working on a project to automate all the CI/CD pipeline creation and also a project maintainer for the open-source project CLA Assistant.",
+      // descBullets: [
+      //   "I developed a new light weight OS bot solution for automating the Contributor License Agreement (CLA) process using GitHub Action - https://github.com/cla-assistant/github-action",
+      // ],
     },
     {
       role: "Software Developer",
       company: "Cognizant",
       companylogo: require("./assets/images/CognizantLogo400.jpg"),
-      date: "May 2017 – May 2018",
+      date: "Dec 2017 – Sep 2018",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Part of an off-shore Development centre of J.B Hunt Transport Services Inc., USA for their Operation and Execution(OPEX) project which is part of JB Hunt 360° ",
     },
     {
       role: "Software Developer",
       company: "Fieldproxy",
       companylogo: require("./assets/images/fieldproxy.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "May 2017 – Dec 2017",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Worked on developing a product (Fieldproxy) to manage the customer's field team's operations",
     },
   ],
 };
